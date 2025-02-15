@@ -37,8 +37,8 @@ This is a full-stack application designed to manage and track sustainability act
 
 ### 1. **Clone the Repository**
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/kirthanps/sustainability_tracker.git
+cd sustainability_tracker
 ```
 
 ### 2. **Setting Up PostgreSQL**
