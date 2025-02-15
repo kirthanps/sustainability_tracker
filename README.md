@@ -125,12 +125,12 @@ cd sustainability_tracker
 
 ### **How to Use**
 1. Open your browser and navigate to:
-  * React Frontend: `http://localhost:3000`
-  * Django API (for testing): `http://localhost:8000/api/actions/`
+   * React Frontend: `http://localhost:3000`
+   * Django API (for testing): `http://localhost:8000/api/actions/`
 2. Use the frontend to manage sustainability actions:
-  * Add new actions.
-  * Edit or delete existing actions.
-  * View all actions in a tabular format.
+   * Add new actions.
+   * Edit or delete existing actions.
+   * View all actions in a tabular format.
 
 ---
 
