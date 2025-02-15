@@ -85,6 +85,7 @@ td {
 .modal-content button:hover {
   background-color: #0056b3;
 }
+
 .form-container {
   margin: 20px auto;
   text-align: left;
@@ -136,6 +137,7 @@ button:hover {
 button[type="button"] {
   margin: 5px;
 }
+
 .confirmation-container {
   margin: 20px auto;
   text-align: center;
