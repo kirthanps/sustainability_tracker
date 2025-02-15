@@ -52,7 +52,7 @@ class ActionList(APIView):
 
             return Response({"message": "Action added successfully", "data": {"id": new_action.id}}, status=201)
         except Exception as e:
-            return Response({"message": "Error adding action", "error": str(e)}, status=400)
+            return Response({"message": "Error adding action", "error": str(e)})
 
 
 class ActionDetail(APIView):
@@ -74,9 +74,9 @@ class ActionDetail(APIView):
 
             return Response({"message": "Action updated successfully", "data": {"id": action.id}})
         except ObjectDoesNotExist:
-            return Response({"message": "Action not found"}, status=404)
+            return Response({"message": "Action not found"})
         except Exception as e:
-            return Response({"message": "Error updating action", "error": str(e)}, status=400)
+            return Response({"message": "Error updating action", "error": str(e)})
         
     def delete(self, request, id):
         try:
@@ -93,4 +93,4 @@ class ActionDetail(APIView):
         except ObjectDoesNotExist:
             return Response({"message": "Action not found"}, status=404)
         except Exception as e:
-            return Response({"message": "Error deleting action", "error": str(e)}, status=400)
+            return Response({"message": "Error deleting action", "error": str(e)})
